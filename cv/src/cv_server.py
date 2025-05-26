@@ -9,8 +9,8 @@ from typing import Any
 
 from fastapi import FastAPI, Request
 
+# from cv_manager import CVManager
 from .cv_manager import CVManager
-
 
 app = FastAPI()
 manager = CVManager()
@@ -43,7 +43,6 @@ async def cv(request: Request) -> dict[str, list[list[dict[str, Any]]]]:
         predictions.append(detections)
 
     return {"predictions": predictions}
-
 
 @app.get("/health")
 def health() -> dict[str, str]:

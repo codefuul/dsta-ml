@@ -5,7 +5,8 @@
 
 
 from fastapi import FastAPI, Request
-from rl_manager import RLManager
+# from rl_manager import RLManager
+from .rl_manager import RLManager # Note the leading dot
 
 app = FastAPI()
 manager = RLManager()

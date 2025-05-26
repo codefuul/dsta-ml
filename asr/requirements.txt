@@ -1,4 +1,18 @@
 # Dependencies for the ASR container.
 
 fastapi==0.115.12
-uvicorn[standard]==0.34.2
+accelerate==1.7.0
+evaluate==0.4.3
+jiwer==3.1.0
+librosa==0.11.0
+soundfile==0.13.1
+tensorboard==2.19.0
+tokenizers==0.21.1
+torch==2.7.0
+torchaudio==2.7.0
+transformers
+uvicorn==0.34.2
+pandas
+tqdm
+numpy
+python-multipart

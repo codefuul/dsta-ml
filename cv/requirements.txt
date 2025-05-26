@@ -2,3 +2,8 @@
 
 fastapi==0.115.12
 uvicorn[standard]==0.34.2
+ultralytics>=8.0.0
+# torch and torchvision are often included with the base image,
+# but you might need to specify versions if you encounter issues.
+Pillow
+opencv-python-headless

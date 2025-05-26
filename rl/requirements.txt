@@ -2,3 +2,13 @@
 
 fastapi
 uvicorn[standard]
+
+# Added for PPO agent
+stable-baselines3>=2.0.0
+pettingzoo>=1.24.0
+supersuit>=3.9.0
+torch>=2.0.0
+torchaudio>=2.0.0
+torchvision>=0.15.0
+# gymnasium is a core dependency for RL environments
+gymnasium

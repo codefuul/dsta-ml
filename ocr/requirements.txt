@@ -2,3 +2,10 @@
 
 fastapi==0.115.12
 uvicorn[standard]==0.34.2
+# Core TrOCR dependencies
+transformers==4.52.1
+tesserocr
+# Image handling (used by TrOCRProcessor and generally useful)
+pillow>=9.0.0
+numpy>=1.22.0
+pytesseract
